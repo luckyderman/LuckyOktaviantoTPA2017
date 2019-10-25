@@ -34,8 +34,12 @@ body,html{
 .heading-2{
     font-family: century gothic;
     font-size: 40px;
-    color: #000;
+    color: white;
     margin: auto;
+	text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
 }
 .heading-3{
     font-family: century gothic;
